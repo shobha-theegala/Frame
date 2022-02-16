@@ -37,20 +37,18 @@ li > a{
     padding: 15px;
     color: rgb(78, 76, 76);
 }
-.Active{
+/* .Active{
     border-bottom: 2px solid rgb(135, 1, 175);
     background-color: rgb(252, 246, 255);
     padding: 15px;
-}
+} */
 :target{
     border-bottom: 2px solid rgb(135, 1, 175);
     background-color: rgb(252, 246, 255);
 }
-li:hover > a{
-    
+li > a:hover{
     background-color: rgb(252, 246, 255);
     border-radius: 5px 5px 0 0;
-
 }
 option{
     font-size: 15px;
